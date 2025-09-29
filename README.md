@@ -48,7 +48,7 @@ Toda a comunicação com serviços externos é feita via **protocolo HTTPS** usa
 
 ---
 
-## ☁️ API de Clima: Open-Meteo
+## API de Clima: Open-Meteo
 
 O projeto utiliza a **Open-Meteo**, uma API de código aberto focada em dados meteorológicos.
 
