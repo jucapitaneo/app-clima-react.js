@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import SearchBar from '../molecules/SearchBar';
 import WeatherSummaryCard from '../molecules/WeatherSummaryCard';
-import { getCurrentWeather } from '../../services/openMeteo.service';
-import { readCache, saveCache, addFavoriteCity, getFavoriteCities } from '../../services/storage.service';
+import { getCurrentWeather } from '../../api&cache/openMeteo.service';
+import { readCache, saveCache, addFavoriteCity, getFavoriteCities } from '../../api&cache/storage.service';
 
 export default function WeatherPanel() {
   const [weather, setWeather] = useState(null);
